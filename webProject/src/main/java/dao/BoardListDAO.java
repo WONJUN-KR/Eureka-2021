@@ -11,10 +11,10 @@ import java.util.ArrayList;
 import vo.BoardListVO;
 
 public class BoardListDAO {
-	String driver = "oracle.jdbc.driver.OracleDriver";
-	String url = "jdbc:oracle:thin:@mydb.cf5zgerwauzn.ap-northeast-2.rds.amazonaws.com:1521:ORCL";
-	String user = "scott";
-	String password = "tigertiger1";
+	String driver = DbConfig.DRIVER;
+	String url = DbConfig.URL;
+	String user = DbConfig.USER;
+	String password = DbConfig.PASSWORD;
 	Connection conn = null;
 	PreparedStatement pstmt = null;
 	StringBuffer sb = new StringBuffer();

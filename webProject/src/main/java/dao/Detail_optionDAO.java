@@ -10,10 +10,10 @@ import java.util.ArrayList;
 import vo.Detail_optionVO;
 
 public class Detail_optionDAO {
-	String driver = "oracle.jdbc.driver.OracleDriver";
-	String url = "jdbc:oracle:thin:@mydb.cf5zgerwauzn.ap-northeast-2.rds.amazonaws.com:1521:orcl";
-	String user = "scott";
-	String password = "tigertiger1";
+	String driver = DbConfig.DRIVER;
+	String url = DbConfig.URL;
+	String user = DbConfig.USER;
+	String password = DbConfig.PASSWORD;
 	Connection conn = null;
 	PreparedStatement pstmt = null;
 	ResultSet rs = null;
