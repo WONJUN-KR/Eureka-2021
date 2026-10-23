@@ -1,9 +1,9 @@
-# FootPrint 2021 - 원본 '유레카' (JSP)
+# Eureka 2021 - 원본 '유레카' (JSP)
 
 2021년 중앙HTA 팀 프로젝트로 만든 여행 장소 공유 커뮤니티 **'유레카'의 원본 코드**입니다.
 원본 레포 [hanheeda/teamZoom](https://github.com/hanheeda/teamZoom)을 포크해, 지금 로컬에서 다시 실행할 수 있게 실행 도구를 더했습니다.
 
-2026년에 같은 구조를 최신 스택으로 다시 만든 버전은 [FootPrint-FE](https://github.com/WONJUN-KR/FootPrint-FE) · [FootPrint-BE](https://github.com/WONJUN-KR/FootPrint-BE)에 있습니다.
+2026년에 같은 구조를 최신 스택으로 다시 만든 버전은 [Eureka-FE](https://github.com/WONJUN-KR/Eureka-FE) · [Eureka-BE](https://github.com/WONJUN-KR/Eureka-BE)에 있습니다.
 
 ---
 
